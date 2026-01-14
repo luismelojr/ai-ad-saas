@@ -1,0 +1,41 @@
+export const PRICING_PLANS = [
+  {
+    name: "Grátis",
+    price: "R$ 0 / mês",
+    description: "Por usuário",
+    features: ["3 Gerações de Anúncios", "Editor Básico", "Suporte por Email"],
+    productId: "price_free_001",
+    buttonText: "Começar Grátis",
+    popular: false,
+  },
+  {
+    name: "Profissional",
+    price: "R$ 97 / mês",
+    description: "Por usuário",
+    features: [
+      "Gerações Ilimitadas",
+      "Exportação em Alta Definição",
+      "Suporte Prioritário",
+      "Acesso à Comunidade",
+      "Modelos Premium",
+      "Sem marca d'água",
+    ],
+    productId: "price_pro_001",
+    buttonText: "Começar Agora",
+    popular: true,
+  },
+  {
+    name: "Agência",
+    price: "R$ 197 / mês",
+    description: "Por usuário",
+    features: [
+      "Tudo do Profissional",
+      "Múltiplos Usuários",
+      "API de Integração",
+      "Gerente de Contas Dedicado",
+    ],
+    productId: "price_agency_001",
+    buttonText: "Falar com Vendas",
+    popular: false,
+  },
+];
